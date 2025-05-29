@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
 app.get('/', (req, res) => {
-    res.render('index', { title: 'EJS Demo', message: 'Hello ji kaise hai aap!' });
+    res.render('index', { title: 'Greeting karte h ', message: 'Hello ji kaise hai aap!' });
 });
 
 const PORT = 3010;
